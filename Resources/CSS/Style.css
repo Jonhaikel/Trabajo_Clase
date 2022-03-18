@@ -1,0 +1,118 @@
+:root{
+    --blanco: #ffffffff;
+    --oscuro: #252525;
+    --primario: #18f1d5;
+    --secundario: #12333db0;
+    --gris: #535353;
+    --grisclaro: #757474b7;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem - 10px*/
+}
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+.Titulo{
+    color:rgb(0, 6, 37);
+    font-size: 5.8rem;
+    text-align: center;
+}
+span{
+    color:aquamarine;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Ramaraja', serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(135, 133, 177, 0.596) 0%, rgba(129, 168, 226, 0.829) 69%, rgba(63, 155, 173, 0.74) 100%);
+}
+/* Tipografia */
+
+h2{
+    font-size: 3.8rem;
+    color: var(--blanco);
+    
+}
+p{
+    color: var(--blanco);
+    
+    
+}
+h1,h2,h3{
+    text-align: center;
+}
+.Titulo span{
+    font-size: 2rem;
+}
+.Nav-Bg{
+    background-color: var(--grisclaro);
+    padding: 15px;
+    display:flex;
+    width: 100%;
+    margin: auto;
+    
+}
+.Nav-Bg a{
+    color: var(--oscuro);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.Nav-Principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+.X{
+    background: #585656;
+    position: relative;
+
+}
+article {
+    background-image: url(../Imagenes/z.jpg);
+    height: 100%;
+    width: 131rem;
+    background-size:cover;
+    padding: 50px;
+    position: relative;
+
+}
+aside{
+    padding: 20px;
+}
+.Z{
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 131rem;
+height: 100%;
+background: #0000009d;
+right: 0px;
+top: 0px;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+#For {
+    background-color: var(--gris);
+    width: min(60rem,100%);
+    margin: 0 auto;
+    padding: 2rem;
+}
+#For fieldset{
+    border: none;
+}
+#For legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primario );
+}
+
